@@ -1,0 +1,144 @@
+ *{
+ 	box-sizing: border-box;
+ }
+ body{
+  background-color: #000000;
+ }
+ /*HEADER*/
+#header-nav {
+  width :100%;
+  background-color: #ff6447;
+  border-radius: 0;
+  border: 0;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  border: 0 0 10px 10px;
+  color: #ffffff;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #004027;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+  padding-top:0;
+}
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+.item {
+  color: white;
+  font-size: 1.2em;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  color: red;
+
+  }
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  background-color: grey;
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+h2{
+  text-align: center;
+  font-weight:bold;
+}
+p {
+  padding: 10px;
+  margin:auto;
+}
+
+#Chicken{
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  padding: 15px;
+}
+#Beef {
+  border: 1px solid black;
+  text-align: center;
+  width : 100%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  padding: 15px;
+}
+
+#Sushi {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  color: white;
+  padding: 15px;
+}
+
+@media(min-width: 1200px){
+
+}
